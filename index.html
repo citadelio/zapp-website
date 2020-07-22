@@ -55,7 +55,7 @@
         <nav class="navbar navbar-expand-lg navbar-light" id="foxapp_menu">
             <div class="container">
                 <a class="navbar-brand" href="#slide">
-                    <img src="assets/img/zapp_light_small.png"  class="img-fluid" alt="">
+                    <img style="width: 97px;" src="assets/img/zapp_logo_light.png"  class="img-fluid" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
                     aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -683,29 +683,29 @@
                     <div class="space-50"></div>
                 </div>
             </div>
-            <form data-aos="fade-up">
+            <form data-aos="fade-up" netlify>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Enter Your Name">
+                            <input type="text" name="name" class="form-control" placeholder="Enter Your Name">
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Enter Your Email">
+                            <input name="email" type="email" class="form-control" placeholder="Enter Your Email">
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Enter Your Subject">
+                            <input name="subject" type="text" class="form-control" placeholder="Enter Your Subject">
                             <span class="focus-border"></span>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="form-group">
-                            <textarea class="form-control" rows="4" placeholder="Enter Your Message"></textarea>
+                            <textarea name="message" class="form-control" rows="4" placeholder="Enter Your Message"></textarea>
                             <span class="focus-border"></span>
                         </div>
                     </div>
@@ -747,12 +747,12 @@
 
     <!-- Start  Footer -->
     <footer class="padding-20 pb-0">
-        <!-- <div class="subscribe">
+        <div class="subscribe" style="padding: 20px 0;">
             <div class="container">
-                <form class="subscribe-form row m-0 align-items-center">
+                <form class="subscribe-form row m-0 align-items-center" netlify>
                     <div class="col-lg-9 col-md-8">
                         <div class="form-group mb-0">
-                            <input type="text" class="form-control" placeholder="Enter Your Email">
+                            <input name="sub-email" type="text" class="form-control" placeholder="Enter Your Email">
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4">
@@ -761,7 +761,7 @@
                     </div>
                 </form>
             </div>
-        </div> -->
+        </div>
         <div class="copyright">
             <div class="container">
                 <div class="row align-items-center">
