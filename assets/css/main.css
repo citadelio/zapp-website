@@ -2180,3 +2180,9 @@ aside.sidebar .tags ul li {
 .colored-text{
     color: #00cdcd;
 }
+
+@media (max-width:767px){
+    .mt-sm-3{
+        margin-top: 1rem;
+    }
+}
